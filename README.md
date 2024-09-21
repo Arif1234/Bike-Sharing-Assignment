@@ -60,7 +60,6 @@
 - [Anaconda Navigator - Version 2.5.2](https://www.anaconda.com/products/navigator)
 
 ## Acknowledgements
-Give credit here.
 - This project was inspired by Live Presentation given by Raghuram Bharadwaj and Live Coding Session on LR taken by Dr. DARSHAN INGLE.
 - This project is based on upGrad course material on [Linear Regression](https://learn.upgrad.com/course/5803/segment/54603/325204/984745/4919622).
 
