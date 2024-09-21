@@ -16,7 +16,6 @@
 
 ## Conclusions
 ### Key Factors and Insights
---------------
 - Most influential factors:
     * Temperature (coef: 0.4384)
     * Year trend (coef: 0.2342)
@@ -36,7 +35,6 @@
     * Indication of higher use on Wednesday, Thursday, and holidays
 
 ### Practical Implications and Recommendations
--------------------------
 - Weather and seasonal factors crucial for demand prediction
 - BoomBikes popularity is growing year-over-year (2019 > 2018)
 - Operational adjustments:
