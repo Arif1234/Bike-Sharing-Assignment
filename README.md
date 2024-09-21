@@ -12,7 +12,7 @@ Identify key factors influencing bike-sharing demand in the post-COVID scenario.
 This analysis leverages a comprehensive dataset containing daily bike demand data, meteorological information, and other relevant factors to achieve these objectives.
 
 ## Methodology
-1. Exploratory Data Analysis (EDA):
+### 1. Exploratory Data Analysis (EDA):
 - Understand patterns and relationships in the data through visualization and statistical analysis.
 - Identify potential data quality issues and address them accordingly (missing values, outliers, etc.).
 
