@@ -1,35 +1,54 @@
 # BoomBikes Linear Regression Model
+> This project aims to develop a comprehensive understanding of factors influencing loan default rates within a consumer finance company. By employing exploratory data analysis (EDA) techniques, we will analyze historical loan data to identify key attributes that correlate with loan repayment behavior. The insights derived from this analysis will enable the company to construct a robust credit risk model, aiding in the assessment of loan applicants and mitigating financial losses due to defaults. Ultimately, this project seeks to optimize lending decisions and enhance overall portfolio performance.
 
-> Outline a brief description of your project.
-
-![alt text](image.png)
 
 ## Table of Contents
-
-- [General Info](#general-information)
-- [Technologies Used](#technologies-used)
-- [Conclusions](#conclusions)
-- [Acknowledgements](#acknowledgements)
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Conclusions](#conclusions)
+* [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- This model provides a reliable tool for predicting bike sharing demand, accounting for various temporal, environmental, and operational factors. It offers valuable insights for operational planning, resource allocation, and marketing strategies in the bike sharing system. The model highlights the importance of weather conditions, seasonal trends, and yearly growth, providing a solid foundation for business decision-making and expansion strategies for BoomBikes.
+- BoomBikes Dataset provided by upGrad is used here.
 
 ## Conclusions
+### Key Factors and Insights
+--------------
+- Most influential factors:
+    * Temperature (coef: 0.4384)
+    * Year trend (coef: 0.2342)
+    * Working day (coef: 0.0543)
+- Negative impacts:
+    * Light Rain/Snow (coef: -0.2964)
+    * Windspeed (coef: -0.1650)
+    * Mist (coef: -0.0835)
+- Seasonal effects:
+    * Winter (coef: 0.1339)
+    * Summer (coef: 0.0766)
+- Monthly patterns:
+    * Higher demand: September (coef: 0.0974), August (coef: 0.0446)
+    * Lower demand: January, December, February, November
+- Day of week effect:
+    * Saturday shows higher demand (coef: 0.0647)
+    * Indication of higher use on Wednesday, Thursday, and holidays
 
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+### Practical Implications and Recommendations
+-------------------------
+- Weather and seasonal factors crucial for demand prediction
+- BoomBikes popularity is growing year-over-year (2019 > 2018)
+- Operational adjustments:
+    * Increase capacity during favorable weather conditions
+    * Implement strategies for low-demand periods (e.g., rainy days)
+- Marketing strategies:
+    * Aggressive marketing in summer and spring
+    * Strong push in the first 6 months of the year
+    * Develop incentives for less favorable weather conditions
+- Customer retention:
+    * Analyze and implement strategies to retain repeat customers
+    * Capitalize on growing popularity and exposure
 
 
 ## Technologies Used
@@ -43,13 +62,10 @@
 - [Anaconda Navigator - Version 2.5.2](https://www.anaconda.com/products/navigator)
 
 ## Acknowledgements
-
 Give credit here.
+- This project was inspired by Live Presentation given by Raghuram Bharadwaj and Live Coding Session on LR taken by Dr. DARSHAN INGLE.
+- This project is based on upGrad course material on [Linear Regression](https://learn.upgrad.com/course/5803/segment/54603/325204/984745/4919622).
 
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
 ## Contact
-
-Created by [@githubusername] - feel free to contact me!
+Created by [@Arif1234](https://github.com/Arif1234) - feel free to contact me!
