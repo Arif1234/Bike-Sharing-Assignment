@@ -1,4 +1,4 @@
-# BoomBikes LR Case Study
+# BoomBikes LR Modal
 The project aims to predict the demand for shared bikes in the US market to assist BoomBikes in optimizing their business strategy. The company seeks to understand the factors influencing demand and build a predictive model to anticipate future trends.
 
 ## Problem Statement
