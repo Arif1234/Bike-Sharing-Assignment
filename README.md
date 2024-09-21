@@ -2,10 +2,16 @@
 The project aims to predict the demand for shared bikes in the US market to assist BoomBikes in optimizing their business strategy. The company seeks to understand the factors influencing demand and build a predictive model to anticipate future trends.
 
 ## Table of Contents
+* [General Information](#general-information)
 * [Problem Statement](#problem-statement)
 * [Methodology](#methodology)
 * [Key Factors and Insights](#key-factors-and-insights)
+* [Practical Implications and Recommendations](#practical-implications-and-recommendations)
 * [Acknowledgements](#acknowledgements)
+
+## General Information
+- This model provides a reliable tool for predicting bike sharing demand, accounting for various temporal, environmental, and operational factors. It offers valuable insights for operational planning, resource allocation, and marketing strategies in the bike sharing system. The model highlights the importance of weather conditions, seasonal trends, and yearly growth, providing a solid foundation for business decision-making and expansion strategies for BoomBikes.
+- BoomBikes Dataset provided by upGrad is used here.
 
 ## Problem Statement
 BoomBikes, a US-based bike-sharing provider, has been negatively impacted by the COVID-19 pandemic. To prepare for post-pandemic recovery and gain a competitive edge, they aim to:
@@ -34,10 +40,6 @@ Train the model on a portion of the data using appropriate methods like train-te
 
 ### 5. Feature Importance:
 - Analyze the relative importance of different features in predicting demand. This guides resource allocation and marketing strategies.
-
-## General Information
-- This model provides a reliable tool for predicting bike sharing demand, accounting for various temporal, environmental, and operational factors. It offers valuable insights for operational planning, resource allocation, and marketing strategies in the bike sharing system. The model highlights the importance of weather conditions, seasonal trends, and yearly growth, providing a solid foundation for business decision-making and expansion strategies for BoomBikes.
-- BoomBikes Dataset provided by upGrad is used here.
 
 ## Key Factors and Insights
 - Most influential factors:
