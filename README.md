@@ -1,29 +1,29 @@
 # BoomBikes LR Case Study
-> The project aims to predict the demand for shared bikes in the US market to assist BoomBikes in optimizing their business strategy. The company seeks to understand the factors influencing demand and build a predictive model to anticipate future trends.
+The project aims to predict the demand for shared bikes in the US market to assist BoomBikes in optimizing their business strategy. The company seeks to understand the factors influencing demand and build a predictive model to anticipate future trends.
 
 ## Problem Statement
 BoomBikes, a US-based bike-sharing provider, is facing significant revenue challenges due to the COVID-19 pandemic. To prepare for post-pandemic recovery and gain a competitive edge, the company aims to develop a data-driven strategy to understand and predict the demand for shared bikes in the American market.
 
-The primary objectives of this analysis are:
+> The primary objectives of this analysis are:
 - Identify the key factors influencing bike-sharing demand in the post-COVID scenario.
 - Develop a predictive model to accurately estimate daily bike rental demand.
 - Quantify the impact of various variables on bike-sharing usage.
 - Provide actionable insights to help BoomBikes optimize their operations and marketing strategies.
 
-Using a comprehensive dataset that includes daily bike demand data, meteorological information, and other relevant factors, we will:
+ > Using a comprehensive dataset that includes daily bike demand data, meteorological information, and other relevant factors, we will:
 - Conduct exploratory data analysis to understand patterns and relationships in the data.
 - Build a multiple linear regression model to predict bike-sharing demand.
 - Determine which variables are most significant in predicting demand.
 - Evaluate how well these variables explain the variations in bike demand.
 - Provide recommendations for BoomBikes to effectively meet customer needs and maximize revenue in the post-pandemic market.
 
-This analysis will enable BoomBikes to:
+> This analysis will enable BoomBikes to:
 - Anticipate and meet fluctuating customer demand efficiently.
 - Allocate resources optimally across their service areas.
 - Develop targeted marketing strategies based on key demand drivers.
 - Make informed decisions about fleet management and expansion plans.
 
-Summary
+> Summary
 - By leveraging data-driven insights, BoomBikes aims to position itself as a market leader in the bike-sharing industry, capitalizing on the expected surge in demand as lockdown restrictions ease and the economy recovers.
 
 ## Table of Contents
