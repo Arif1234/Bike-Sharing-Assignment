@@ -1,6 +1,12 @@
 # BoomBikes: Bike-Sharing Demand Prediction with Linear Regression
 The project aims to predict the demand for shared bikes in the US market to assist BoomBikes in optimizing their business strategy. The company seeks to understand the factors influencing demand and build a predictive model to anticipate future trends.
 
+## Table of Contents
+* [General Info](#problem-statement)
+* [Technologies Used](#technologies-used)
+* [Conclusions](#conclusions)
+* [Acknowledgements](#acknowledgements)
+
 ## Problem Statement
 BoomBikes, a US-based bike-sharing provider, has been negatively impacted by the COVID-19 pandemic. To prepare for post-pandemic recovery and gain a competitive edge, they aim to:
 
@@ -28,14 +34,6 @@ Train the model on a portion of the data using appropriate methods like train-te
 
 ### 5. Feature Importance:
 - Analyze the relative importance of different features in predicting demand. This guides resource allocation and marketing strategies.
-
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
 - This model provides a reliable tool for predicting bike sharing demand, accounting for various temporal, environmental, and operational factors. It offers valuable insights for operational planning, resource allocation, and marketing strategies in the bike sharing system. The model highlights the importance of weather conditions, seasonal trends, and yearly growth, providing a solid foundation for business decision-making and expansion strategies for BoomBikes.
