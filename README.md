@@ -100,4 +100,4 @@ Train the model on a portion of the data using appropriate methods like train-te
 
 
 ## Contact
-Created by [@Arif1234](https://github.com/Arif1234) - feel free to contact me!
+Created by [Mohammad Tasleem Arif](https://github.com/Arif1234) - feel free to contact me!
