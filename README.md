@@ -1,6 +1,8 @@
 # BoomBikes: Bike-Sharing Demand Prediction with Linear Regression
 The project aims to predict the demand for shared bikes in the US market to assist BoomBikes in optimizing their business strategy. The company seeks to understand the factors influencing demand and build a predictive model to anticipate future trends.
 
+![[BoomBikes]](boombikes.png)
+
 ## Table of Contents
 * [General Information](#general-information)
 * [Problem Statement](#problem-statement)
