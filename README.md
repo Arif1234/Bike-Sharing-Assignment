@@ -16,17 +16,17 @@ This analysis leverages a comprehensive dataset containing daily bike demand dat
 - Understand patterns and relationships in the data through visualization and statistical analysis.
 - Identify potential data quality issues and address them accordingly (missing values, outliers, etc.).
 
-2. Data Preprocessing:
+### 2. Data Preprocessing:
 - Prepare the data for modeling by encoding categorical variables, handling missing values, and potentially creating new features if necessary.
 
-3. Model Selection and Training:
+### 3. Model Selection and Training:
 - Build a multiple linear regression model to predict bike-sharing demand based on significant features identified in the EDA.
 Train the model on a portion of the data using appropriate methods like train-test split.
 
-4. Model Evaluation:
+### 4. Model Evaluation:
 - Evaluate the model's performance on unseen data using metrics like R-squared, Mean Squared Error (MSE), Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE).
 
-5. Feature Importance:
+### 5. Feature Importance:
 - Analyze the relative importance of different features in predicting demand. This guides resource allocation and marketing strategies.
 
 ## Table of Contents
