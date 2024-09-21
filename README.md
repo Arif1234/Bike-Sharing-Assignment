@@ -7,6 +7,8 @@ The project aims to predict the demand for shared bikes in the US market to assi
 * [Methodology](#methodology)
 * [Key Factors and Insights](#key-factors-and-insights)
 * [Practical Implications and Recommendations](#practical-implications-and-recommendations)
+* [Technologies Used](#technologies-used)
+* [Conclusion](#conclusion)
 * [Acknowledgements](#acknowledgements)
 
 ## General Information
@@ -84,6 +86,9 @@ Train the model on a portion of the data using appropriate methods like train-te
 - [Jupyter Notebook - Version 7.0.8](https://jupyter.org/)
 - [JupyterLab - Version 4.0.11](https://jupyter.org/)
 - [Anaconda Navigator - Version 2.5.2](https://www.anaconda.com/products/navigator)
+
+## Conclusion
+- The developed linear regression model demonstrates strong predictive power in forecasting bike-sharing demand, accurately capturing the influence of various factors such as weather, seasonality, and day-of-week effects. The model's performance is robust, with consistent results on both training and testing data, indicating its reliability in real-world applications. Key insights derived from the model include the significant impact of temperature and year-over-year growth on demand, as well as the negative influence of adverse weather conditions. These findings offer valuable guidance for BoomBikes to optimize their operations, marketing strategies, and resource allocation. By leveraging the model's predictions and recommendations, BoomBikes can effectively anticipate and meet customer demand, enhance operational efficiency, and capitalize on the growing popularity of bike-sharing services.
 
 ## Acknowledgements
 - This project was inspired by Live Presentation given by Raghuram Bharadwaj and Live Coding Session on LR taken by Dr. DARSHAN INGLE.
