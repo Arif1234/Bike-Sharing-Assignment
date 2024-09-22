@@ -47,22 +47,26 @@ Train the model on a portion of the data using appropriate methods like train-te
 
 ## Key Factors and Insights
 - Most influential factors:
-    * Temperature (coef: 0.4384)
-    * Year trend (coef: 0.2342)
-    * Working day (coef: 0.0543)
+    * Temperature (coef: 0.491162): A strong positive impact on bike rentals. As temperature rises, bike rentals tend to increase significantly.
+    * Year trend (coef: 0.233369): The upward trend in bike rentals over time suggests growing adoption of the service.
 - Negative impacts:
-    * Light Rain/Snow (coef: -0.2964)
-    * Windspeed (coef: -0.1650)
-    * Mist (coef: -0.0835)
+    * Light Rain/Snow (coef: -0.290409): Rain or snow has the most significant negative impact on bike rentals, leading to reduced usage.
+    * Holiday (coef: -0.105739): Bike rentals tend to drop on holidays, potentially due to fewer commuters or a change in travel habits.
+    * Windspeed (coef: -0.147913): Higher wind speeds negatively affect rentals, likely because of reduced comfort and safety.
+    * Mist (coef: -0.083534): Misty conditions also reduce rentals, possibly due to reduced visibility or unpleasant conditions.weather.
 - Seasonal effects:
-    * Winter (coef: 0.1339)
-    * Summer (coef: 0.0766)
+    * Winter (coef: 0.086067): Winter has a positive but modest impact, suggesting increased demand compared to other seasons.
+    * Summer (coef: 0.046369): Summer still shows a mild positive impact, though less influential than temperature.
+    * Spring (coef: -0.065308): Spring has a small negative effect, possibly due to unpredictable weather.
 - Monthly patterns:
-    * Higher demand: September (coef: 0.0974), August (coef: 0.0446)
-    * Lower demand: January, December, February, November
+    * Higher demand in September (coef: 0.075863): September stands out for increased rentals.
+    * Lower demand in July (coef: -0.049569): July shows a slight drop in rentals, likely due to extreme heat or vacation periods.
 - Day of week effect:
-    * Saturday shows higher demand (coef: 0.0647)
-    * Indication of higher use on Wednesday, Thursday, and holidays
+    * Sunday (coef: -0.048479) shows a slight negative impact, indicating that rental demand tends to drop on Sundays compared to weekdays, possibly because of reduced commuting.
+- Holiday Effect:
+    * The inclusion of Holiday (coef: -0.105739) shows a notable reduction in bike rentals during holidays.
+    * This may indicate that people prefer other forms of transportation or are less likely to commute on holidays, hence the drop in demand.
+
 
 ## Practical Implications and Recommendations
 - Weather and seasonal factors crucial for demand prediction
